@@ -1,0 +1,38 @@
+body{
+    font-family: sans-serif;
+    margin: 0px;
+}
+.navigation{
+    background-color: gray;
+    padding: 10px;
+}
+
+.Denger {
+    border: none;
+    background-color: #dc3545;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 15px;
+    font-family: sans-serif;
+}
+
+.Menu {
+    display: none;
+    position: absolute;
+    background-color: lightgray;
+    min-width: 150px;
+    border-radius: 10px;
+}
+
+.Menu a {
+    color: black;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+}
+
+.show {
+    display: block;
+}
